@@ -1,8 +1,9 @@
 # Reto MIT Face Recognition
 ## Descripción
-El [MIT Face Database](http://cbcl.mit.edu/software-datasets/heisele/facerecognition-database.html) es un conjunto de 2000 imágenes de caras de 10 personas distintas, desde diferentes ángulos y variando el fondo y la iluminacin. El tamaño de las imagenes de variable pero oscila entre 100 y 200 pixeles para cada dimensión.
+El [MIT Face Database](http://cbcl.mit.edu/software-datasets/heisele/facerecognition-database.html) es un conjunto de 2000 imágenes de caras de 10 personas distintas, desde diferentes ángulos, variando el fondo y la iluminación. El tamaño de las imágenes de variable pero oscila entre 100 y 200 pixeles para cada dimensión y las caras no se encuentran centradas en la imagen.
 
-![alt text][s1]
+
+<img src="https://raw.githubusercontent.com/charlielito/supervised-intermedio-mit-face-recognition/master/set.jpg" alt="Drawing" width="400" height="200" >
 
 El reto es construir un clasificador de imágenes que sea capaz de reconocer las 10 personas.
 
@@ -86,12 +87,12 @@ Dependiendo de tu entorno puede que necesites instalar paquetes del sistema adic
 ### Descarga y Preprocesamiento
 Para descargar los datos ejecuta el comando
 ```bash
-dataget get yale-face-rec
+dataget get mit-face-rec
 ```
 **Esto abrírá mientras se descarga el dataset una ventana de Chrome, por favor NO cerrarla.**<br> Los archivos se descaragan en la carpeta `.dataget/data`, los divide en los conjuntos `training-set` y `test-set`, convierte las imagenes en `jpg` de dimensiones `32x32`. Las imágenes originalmente vienen en formato `.pgm` con dimensiones `100x100`. Si deseas mantener el formato original ejecuta en vez
 
 ```bash
-dataget get --dont-process yale-face-rec
+dataget get --dont-process mit-face-rec
 ```
 
 # Starter Code Python
@@ -110,4 +111,3 @@ y abrir el archivo `python-sample.ipynb`.
 | - | - | - | - |
 | *score* | *nombre* | *algoritmo* | *link* |
 
-[s1]: http://vision.ucsd.edu/~leekc/ExtYaleDatabase/images/ExpImgs.png "S"
