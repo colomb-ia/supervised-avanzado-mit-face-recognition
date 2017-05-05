@@ -7,6 +7,9 @@ El [MIT Face Database](http://cbcl.mit.edu/software-datasets/heisele/facerecogni
 
 El reto es construir un clasificador de imágenes que sea capaz de reconocer las 10 personas.
 
+### Ranking
+Ver [ranking](https://github.com/charlielito/supervised-intermedio-mit-face-recognition/blob/master/ranking.md).
+
 ### Formato Datos
 Todos los datos están en la carpeta `.dataget/data/mit-face-rec` y se dividen en 2 grupos
 ```
@@ -105,9 +108,4 @@ jupyter notebook .
 ```
 y abrir el archivo `python-sample.ipynb`.
 
-
-# Soluciones
-| Score | Usuario |	Algoritmo | Link Repo |
-| - | - | - | - |
-| *score* | *nombre* | *algoritmo* | *link* |
 
