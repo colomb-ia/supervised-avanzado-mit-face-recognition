@@ -1,7 +1,6 @@
 pillow
-scipy
 numpy
 jupyter
 selenium
 matplotlib
-dataget==0.1.4
+dataget
